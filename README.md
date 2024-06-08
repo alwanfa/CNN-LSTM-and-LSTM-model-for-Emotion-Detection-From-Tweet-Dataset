@@ -10,9 +10,10 @@ The dataset used in this project consists of emotion labeled tweets taken from h
 ## Preprocessing
 Preprocessing data includes
 - removing punctuation
-- normalizing laughing word, slang, and exxageration in prefix and postfix of the word.
-- POS Tagging
-- Word Embedding using Fasttext Embedding Matrix on Embedding Layer
+- normalizing laughing word exaggeration in prefix and postfix of the word with dictionary method using.
+- normalizing colloquial Indonesian dataset using dictionary method from https://github.com/nasalsabila/kamus-alay dataset.
+- POS Tagging using https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger
+- Word Embedding using Fasttext https://fasttext.cc/ Embedding Matrix on Embedding Layer 
 
 ## Model
   In this project there are 2 model trained including LSTM and CNN-LSTM. Hyperparameter tuning using hyperband tuning.
