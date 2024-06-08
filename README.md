@@ -13,7 +13,16 @@ Preprocessing data includes
 - normalizing laughing word exaggeration in prefix and postfix of the word with dictionary method using.
 - normalizing colloquial Indonesian dataset using dictionary method from https://github.com/nasalsabila/kamus-alay dataset.
 - POS Tagging using https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger
-- Word Embedding using Fasttext https://fasttext.cc/ Embedding Matrix on Embedding Layer 
+- Word Embedding using Fasttext https://fasttext.cc/ Embedding Matrix on Embedding Layer
+
+  The Code is in the inference.ipynb on function pipeline section
 
 ## Model
   In this project there are 2 model trained including LSTM and CNN-LSTM. Hyperparameter tuning using hyperband tuning.
+  ### LSTM
+  ![image](https://github.com/alwanfa/CNN-LSTM-and-LSTM-model-for-Emotion-Detection-From-Tweet-Dataset/assets/71076451/0beab914-0995-4dce-94f8-5cf45006bf9b)
+
+  ### CNN-LSTM
+  ![image](https://github.com/alwanfa/CNN-LSTM-and-LSTM-model-for-Emotion-Detection-From-Tweet-Dataset/assets/71076451/1dc154bd-5514-4ab1-bb4e-27f69113fe9f)
+
+
